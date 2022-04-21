@@ -1,0 +1,4 @@
+[armeabi-v7a] Compile++ thumb: protected <= AES.cpp
+[armeabi-v7a] Compile thumb  : protected <= base64.c
+[armeabi-v7a] Compile thumb  : protected <= xxtea.c
+[armeabi-v7a] SharedLibrary  : libprotected.so

@@ -1,0 +1,45 @@
+{
+  "buildFiles": [
+    "/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk",
+    "/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "protected-debug-armeabi-v7a": {
+      "buildCommand": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib /Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprotected.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "protected",
+      "files": [
+        {
+          "src": "/Users/zeng/Downloads/Protect-master/app/src/main/jni/AES.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/zeng/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/Users/zeng/Downloads/Protect-master/app/src/main/jni -I/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++abi/include -I/Users/zeng/Downloads/Protect-master/app/src/main/jni -fexceptions -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/zeng/Downloads/Protect-master/app/src/main/jni/base64.c",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/zeng/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/Users/zeng/Downloads/Protect-master/app/src/main/jni -I/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++abi/include -I/Users/zeng/Downloads/Protect-master/app/src/main/jni -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/zeng/Downloads/Protect-master/app/src/main/jni/xxtea.c",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/zeng/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/Users/zeng/Downloads/Protect-master/app/src/main/jni -I/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++abi/include -I/Users/zeng/Downloads/Protect-master/app/src/main/jni -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprotected.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
