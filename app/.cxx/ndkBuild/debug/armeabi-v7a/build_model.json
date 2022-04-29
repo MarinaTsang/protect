@@ -4,14 +4,14 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "cxxBuildFolder": "/Users/zeng/Downloads/Protect-master/app/.cxx/ndkBuild/debug/armeabi-v7a",
+  "cxxBuildFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app/.cxx/ndkBuild/debug/armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/zeng/Downloads/Protect-master/app/.cxx/ndkBuild/debug/armeabi-v7a",
+  "originalCxxBuildFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app/.cxx/ndkBuild/debug/armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -22,12 +22,12 @@
     "module": {
       "buildSystem": "NDK_BUILD",
       "cmakeToolchainFile": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/zeng/Downloads/Protect-master/app/.cxx",
+      "cxxFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app/.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "/Users/zeng/Downloads/Protect-master/app/build/intermediates",
-      "makeFile": "/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk",
-      "moduleBuildFile": "/Users/zeng/Downloads/Protect-master/app/build.gradle",
-      "moduleRootFolder": "/Users/zeng/Downloads/Protect-master/app",
+      "intermediatesFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates",
+      "makeFile": "/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Android.mk",
+      "moduleBuildFile": "/Users/zeng/zengmy/fastmeow/Protect-master/app/build.gradle",
+      "moduleRootFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -91,12 +91,12 @@
       "ndkDefaultStl": "SYSTEM",
       "ndkVersion": "21.0.6113669",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/zeng/Downloads/Protect-master/.cxx",
-        "cxxFolder": "/Users/zeng/Downloads/Protect-master/.cxx",
+        "compilerSettingsCacheFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/.cxx",
+        "cxxFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/zeng/Downloads/Protect-master",
+        "rootBuildGradleFolder": "/Users/zeng/zengmy/fastmeow/Protect-master",
         "sdkFolder": "/Users/zeng/Library/Android/sdk",
         "isPrefabEnabled": false
       },
@@ -113,13 +113,13 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local",
+    "objFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A"
     ],
-    "prefabDirectory": "/Users/zeng/Downloads/Protect-master/app/.cxx/ndkBuild/debug/prefab",
+    "prefabDirectory": "/Users/zeng/zengmy/fastmeow/Protect-master/app/.cxx/ndkBuild/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/Users/zeng/Downloads/Protect-master/app/.cxx/ndkBuild/debug/prefab/armeabi-v7a"
+  "prefabFolder": "/Users/zeng/zengmy/fastmeow/Protect-master/app/.cxx/ndkBuild/debug/prefab/armeabi-v7a"
 }

@@ -1,18 +1,18 @@
 {
   "buildFiles": [
-    "/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk",
-    "/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk"
+    "/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Android.mk",
+    "/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib clean"
+    "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/lib clean"
   ],
-  "buildTargetsCommand": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "protected-debug-armeabi-v7a": {
       "artifactName": "protected",
-      "buildCommand": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib /Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprotected.so",
+      "buildCommand": "/Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/lib /Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprotected.so",
       "abi": "armeabi-v7a",
-      "output": "/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprotected.so",
+      "output": "/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprotected.so",
       "runtimeFiles": []
     }
   }

@@ -84,9 +84,9 @@ public class JiaGu {
      */
     public static File encrypt(File apk, KeystoreConfig config, com.library.dexknife.shell.Callback<Event> callback) {
 
-        if (!com.library.dexknife.shell.utils.FileHelper.exists(apk) || isEncrypted(apk)) {
-            return null;
-        }
+//        if (!com.library.dexknife.shell.utils.FileHelper.exists(apk) || isEncrypted(apk)) {
+//            return null;
+//        }
         workDir.mkdir();
         /**
          * 1.decompile apk

@@ -1,14 +1,14 @@
 Executable : /Users/zeng/Library/Android/sdk/ndk/21.0.6113669/ndk-build
 arguments : 
 NDK_PROJECT_PATH=null
-APP_BUILD_SCRIPT=/Users/zeng/Downloads/Protect-master/app/src/main/jni/Android.mk
-NDK_APPLICATION_MK=/Users/zeng/Downloads/Protect-master/app/src/main/jni/Application.mk
+APP_BUILD_SCRIPT=/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/Users/zeng/zengmy/fastmeow/Protect-master/app/src/main/jni/Application.mk
 APP_ABI=armeabi-v7a
 NDK_ALL_ABIS=armeabi-v7a
 NDK_DEBUG=1
 APP_PLATFORM=android-16
-NDK_OUT=/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/obj
-NDK_LIBS_OUT=/Users/zeng/Downloads/Protect-master/app/build/intermediates/ndkBuild/debug/lib
+NDK_OUT=/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/Users/zeng/zengmy/fastmeow/Protect-master/app/build/intermediates/ndkBuild/debug/lib
 APP_SHORT_COMMANDS=false
 LOCAL_SHORT_COMMANDS=false
 -B
